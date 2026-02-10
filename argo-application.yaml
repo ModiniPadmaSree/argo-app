@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/ModiniPadmaSree/argo-app.git
+    repoURL: https://github.com/ModiniPadmaSree/argo-app
     targetRevision: main
     path: .
     directory:
