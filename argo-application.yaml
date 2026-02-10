@@ -7,9 +7,11 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/ModiniPadmaSree/argo-app
+    repoURL: https://github.com/ModiniPadmaSree/argo-app.git
     targetRevision: main
-    path: app
+    path: .
+    directory:
+      recurse: true 
 
   destination:
     server: https://kubernetes.default.svc
@@ -21,3 +23,4 @@ spec:
       selfHeal: true
     syncOptions:
       - CreateNamespace=true
+
