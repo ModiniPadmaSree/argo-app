@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/ModiniPadmaSree/argo-app.git
     targetRevision: main
-    path: .
+    path: argo-app
     directory:
       recurse: true 
 
