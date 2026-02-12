@@ -17,4 +17,5 @@ spec:
         - name: backend
           image: modinipadmasree/resume-builder-backend:1.0.0
           ports:
-            - containerPort: 5000
+            - port: 5000
+              targetPort: 5000
