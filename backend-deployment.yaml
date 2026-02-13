@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: backend
-          image: modinipadmasree/resume-builder-backend:c74dedac
+          image: modinipadmasree/resume-builder-backend:4ceffc4a
           ports:
             - containerPort: 5000
