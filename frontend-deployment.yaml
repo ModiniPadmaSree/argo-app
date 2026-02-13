@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: modinipadmasree/resume-builder-frontend:642d065f
+          image: modinipadmasree/resume-builder-frontend:c74dedac
           imagePullPolicy: Always
           ports:
             - containerPort: 80
